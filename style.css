@@ -1,0 +1,27 @@
+.box1,.box2,.box3{
+    width:50%;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    background: lightgrey;
+    transition: ease-in-out 1s;
+    border-radius: 10px;
+}
+.box1:hover, .box3:hover ,.box2:hover {
+    background: lightskyblue;
+}
+    h1{
+        font-size: 20px;
+          color: black;
+        
+        padding: 10px ;
+
+    }
+
+#p1 ,#p2,#p3{
+    display: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: ease-in-out 1s;
+    
+}
